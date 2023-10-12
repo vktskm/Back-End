@@ -1,0 +1,24 @@
+
+14:48:16.416 [main] INFO  es2.Main - How many km?
+14:49:37.774 [main] INFO  es2.Main - How many km?
+14:49:42.462 [main] INFO  es2.Main - 34km
+14:49:42.462 [main] INFO  es2.Main - How many lt?
+14:49:48.932 [main] INFO  es2.Main - 4lt
+14:49:48.932 [main] INFO  es2.Main - Consumption:8
+15:14:11.245 [main] INFO  es2.Main - How many km?
+15:14:19.753 [main] INFO  es2.Main - How many km?
+15:14:23.037 [main] INFO  es2.Main - 8km
+15:14:23.039 [main] INFO  es2.Main - How many lt?
+15:14:25.588 [main] INFO  es2.Main - 2lt
+15:14:25.588 [main] INFO  es2.Main - Consumption:4
+15:14:44.531 [main] INFO  es2.Main - How many km?
+15:17:47.663 [main] INFO  es2.Main - How many km?
+15:17:56.374 [main] INFO  es2.Main - 45km
+15:17:56.374 [main] INFO  es2.Main - How many lt?
+15:18:02.138 [main] INFO  es2.Main - 3lt
+15:18:02.138 [main] INFO  es2.Main - Consumption:15
+15:19:38.480 [main] INFO  es2.Main - How many km?
+15:20:54.589 [main] INFO  es2.Main - 45km
+15:20:54.589 [main] INFO  es2.Main - How many lt?
+15:20:58.616 [main] INFO  es2.Main - 0lt
+15:20:58.618 [main] WARN  es2.Main - SOMETHING HAPPENED HERE: / by zero

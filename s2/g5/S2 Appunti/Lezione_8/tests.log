@@ -1,0 +1,872 @@
+2023-07-05 09:56:20,659 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 09:56:20,666 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 09:56:20,666 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 09:56:20,666 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 09:56:20,666 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 09:56:20,666 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 09:56:20,666 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 09:56:20,666 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 09:56:20,667 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 09:56:20,668 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 09:56:20,668 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 09:56:20,668 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 09:57:18,540 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 09:57:18,540 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 09:57:18,543 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 09:57:18,543 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 09:57:18,545 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 09:57:18,545 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 09:57:18,546 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 09:57:18,546 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 09:57:18,546 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 09:57:18,546 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 09:57:18,546 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 09:57:18,546 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 09:57:18,546 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 09:59:03,983 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 09:59:03,983 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 09:59:03,983 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 09:59:03,988 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 09:59:03,988 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 09:59:03,989 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:00:07,914 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:00:07,914 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:00:07,914 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:00:07,922 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:00:07,922 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:00:07,922 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:00:07,922 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:00:07,922 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:00:07,922 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:00:07,922 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:00:07,922 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:00:07,922 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:00:07,922 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:00:07,924 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:00:07,924 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:00:07,924 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:00:07,924 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:00:07,924 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:00:07,924 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:00:07,924 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:00:07,924 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:00:07,924 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:00:07,924 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:00:07,924 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:00:07,924 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:00:07,925 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:00:07,925 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:00:12,367 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:00:12,367 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:00:12,367 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:00:12,373 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:00:12,373 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:00:12,374 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:00:15,547 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:00:15,547 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:00:15,547 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:00:15,552 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:00:15,552 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:00:15,552 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:00:15,552 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:00:15,553 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:00:15,553 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:29:14,322 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:29:14,322 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:29:14,322 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:29:15,327 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:29:15,327 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:29:16,339 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:29:16,339 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:29:17,354 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:29:17,354 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:29:18,358 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:29:18,358 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:29:19,363 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:29:19,363 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:29:20,376 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:29:20,376 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:29:21,378 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:29:21,378 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:29:22,394 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:29:22,394 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:29:23,408 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:29:23,408 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:29:24,422 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:29:24,422 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:29:25,436 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:29:25,436 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:29:26,448 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:29:26,448 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:29:27,464 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:29:27,464 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:29:28,477 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:29:28,477 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:29:29,488 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:29:29,488 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:29:30,508 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:29:30,508 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:29:31,519 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:29:31,519 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:29:32,532 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:29:32,532 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:29:33,548 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:29:33,548 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:29:34,593 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:29:34,593 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:41:04,766 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:41:04,766 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.0 - Terzo Thread
+2023-07-05 10:41:04,766 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.0 - Quarto Thread
+2023-07-05 10:41:04,766 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:41:04,766 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:41:05,784 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.1 - Terzo Thread
+2023-07-05 10:41:05,784 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.1 - Quarto Thread
+2023-07-05 10:41:05,784 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:41:05,784 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:41:06,797 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.2 - Quarto Thread
+2023-07-05 10:41:06,797 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:41:06,797 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.2 - Terzo Thread
+2023-07-05 10:41:06,797 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:41:07,812 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.3 - Quarto Thread
+2023-07-05 10:41:07,812 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:41:07,812 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.3 - Terzo Thread
+2023-07-05 10:41:07,812 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:41:08,825 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.4 - Quarto Thread
+2023-07-05 10:41:08,825 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:41:08,825 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:41:08,825 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.4 - Terzo Thread
+2023-07-05 10:41:09,839 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:41:09,839 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.5 - Terzo Thread
+2023-07-05 10:41:09,839 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.5 - Quarto Thread
+2023-07-05 10:41:09,839 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:41:10,853 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:41:10,853 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.6 - Terzo Thread
+2023-07-05 10:41:10,853 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:41:10,853 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.6 - Quarto Thread
+2023-07-05 10:41:11,866 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.7 - Quarto Thread
+2023-07-05 10:41:11,866 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:41:11,866 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:41:11,866 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.7 - Terzo Thread
+2023-07-05 10:41:12,879 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:41:12,879 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.8 - Terzo Thread
+2023-07-05 10:41:12,879 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:41:12,879 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.8 - Quarto Thread
+2023-07-05 10:41:13,894 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:41:13,894 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:41:13,894 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.9 - Terzo Thread
+2023-07-05 10:41:13,894 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.9 - Quarto Thread
+2023-07-05 10:41:14,905 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.10 - Terzo Thread
+2023-07-05 10:41:14,905 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.10 - Quarto Thread
+2023-07-05 10:41:14,905 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:41:14,905 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:41:15,916 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.11 - Terzo Thread
+2023-07-05 10:41:15,916 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:41:15,916 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.11 - Quarto Thread
+2023-07-05 10:41:15,916 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:41:16,927 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:41:16,927 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.12 - Quarto Thread
+2023-07-05 10:41:16,927 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:41:16,927 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.12 - Terzo Thread
+2023-07-05 10:41:17,941 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:41:17,941 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:41:17,941 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.13 - Quarto Thread
+2023-07-05 10:41:17,941 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.13 - Terzo Thread
+2023-07-05 10:41:18,942 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:41:18,942 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:41:18,945 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.14 - Quarto Thread
+2023-07-05 10:41:18,957 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.14 - Terzo Thread
+2023-07-05 10:41:19,943 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:41:19,943 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:41:19,954 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.15 - Quarto Thread
+2023-07-05 10:41:19,970 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.15 - Terzo Thread
+2023-07-05 10:41:20,953 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:41:20,953 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:41:20,969 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.16 - Quarto Thread
+2023-07-05 10:41:20,984 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.16 - Terzo Thread
+2023-07-05 10:41:21,956 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:41:21,956 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:41:21,969 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.17 - Quarto Thread
+2023-07-05 10:41:21,985 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.17 - Terzo Thread
+2023-07-05 10:41:22,968 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:41:22,968 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:41:22,983 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.18 - Quarto Thread
+2023-07-05 10:41:22,999 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.18 - Terzo Thread
+2023-07-05 10:41:23,980 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:41:23,980 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:41:23,996 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.19 - Quarto Thread
+2023-07-05 10:41:24,012 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.19 - Terzo Thread
+2023-07-05 10:41:24,992 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:41:24,992 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:41:25,008 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.20 - Quarto Thread
+2023-07-05 10:41:25,023 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.20 - Terzo Thread
+2023-07-05 10:50:19,746 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:50:19,746 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:50:19,746 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.0 - Terzo Thread
+2023-07-05 10:50:19,746 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.0 - Quarto Thread
+2023-07-05 10:50:19,746 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:50:20,758 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.1 - Quarto Thread
+2023-07-05 10:50:20,758 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:50:20,758 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.1 - Terzo Thread
+2023-07-05 10:50:20,758 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:50:20,758 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:50:20,758 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:50:20,758 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:50:20,758 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:50:21,772 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.2 - Quarto Thread
+2023-07-05 10:50:21,772 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:50:21,772 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:50:21,772 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:50:21,772 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.2 - Terzo Thread
+2023-07-05 10:50:21,772 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:50:21,772 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:50:21,772 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:50:22,784 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.3 - Terzo Thread
+2023-07-05 10:50:22,784 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.3 - Quarto Thread
+2023-07-05 10:50:22,784 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:50:22,784 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:50:22,784 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:50:22,784 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:50:22,784 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:50:22,784 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:50:23,795 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.4 - Quarto Thread
+2023-07-05 10:50:23,795 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.4 - Terzo Thread
+2023-07-05 10:50:23,795 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:50:23,795 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:50:23,795 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:50:23,795 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:50:23,795 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:50:23,795 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:50:24,809 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.5 - Quarto Thread
+2023-07-05 10:50:24,809 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:50:24,809 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:50:24,809 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:50:24,809 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.5 - Terzo Thread
+2023-07-05 10:50:24,809 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:50:24,809 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:50:24,809 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:50:25,818 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.6 - Quarto Thread
+2023-07-05 10:50:25,818 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:50:25,818 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.6 - Terzo Thread
+2023-07-05 10:50:25,818 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:50:25,818 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:50:25,818 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:50:25,818 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:50:25,818 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:50:26,832 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:50:26,832 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:50:26,832 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:50:26,832 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.7 - Quarto Thread
+2023-07-05 10:50:26,832 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:50:26,832 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.7 - Terzo Thread
+2023-07-05 10:50:27,834 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.8 - Quarto Thread
+2023-07-05 10:50:27,834 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.8 - Terzo Thread
+2023-07-05 10:50:28,848 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.9 - Quarto Thread
+2023-07-05 10:50:28,848 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.9 - Terzo Thread
+2023-07-05 10:50:29,849 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.10 - Quarto Thread
+2023-07-05 10:50:29,849 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.10 - Terzo Thread
+2023-07-05 10:50:30,860 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.11 - Quarto Thread
+2023-07-05 10:50:30,860 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.11 - Terzo Thread
+2023-07-05 10:50:31,861 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.12 - Terzo Thread
+2023-07-05 10:50:31,861 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.12 - Quarto Thread
+2023-07-05 10:50:32,864 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.13 - Quarto Thread
+2023-07-05 10:50:32,864 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.13 - Terzo Thread
+2023-07-05 10:50:33,880 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.14 - Quarto Thread
+2023-07-05 10:50:33,880 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.14 - Terzo Thread
+2023-07-05 10:50:34,894 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.15 - Quarto Thread
+2023-07-05 10:50:34,894 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.15 - Terzo Thread
+2023-07-05 10:50:35,897 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.16 - Terzo Thread
+2023-07-05 10:50:35,897 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.16 - Quarto Thread
+2023-07-05 10:50:36,898 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.17 - Quarto Thread
+2023-07-05 10:50:36,898 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.17 - Terzo Thread
+2023-07-05 10:50:37,910 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.18 - Terzo Thread
+2023-07-05 10:50:37,910 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.18 - Quarto Thread
+2023-07-05 10:50:38,911 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.19 - Terzo Thread
+2023-07-05 10:50:38,911 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.19 - Quarto Thread
+2023-07-05 10:50:39,924 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.20 - Terzo Thread
+2023-07-05 10:50:39,924 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.20 - Quarto Thread
+2023-07-05 10:54:00,995 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:54:02,002 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:54:02,003 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:54:02,004 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:54:03,016 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:54:03,016 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:54:03,016 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:54:04,026 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:54:04,026 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:54:04,026 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:54:05,035 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:54:05,035 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:54:05,035 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:54:06,036 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:54:06,036 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:54:06,036 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:54:07,091 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:54:07,091 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:54:07,091 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:54:08,097 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:54:08,097 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:54:08,098 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:54:08,098 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:54:08,098 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.0 - Terzo Thread
+2023-07-05 10:54:08,098 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.0 - Quarto Thread
+2023-07-05 10:54:09,110 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.1 - Quarto Thread
+2023-07-05 10:54:09,110 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.1 - Terzo Thread
+2023-07-05 10:54:09,110 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:54:09,110 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:54:09,110 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:54:10,125 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.2 - Quarto Thread
+2023-07-05 10:54:10,125 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:54:10,125 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.2 - Terzo Thread
+2023-07-05 10:54:10,125 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:54:10,126 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:54:11,140 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:54:11,140 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.3 - Terzo Thread
+2023-07-05 10:54:11,140 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:54:11,140 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.3 - Quarto Thread
+2023-07-05 10:54:11,140 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:54:12,155 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.4 - Quarto Thread
+2023-07-05 10:54:12,155 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.4 - Terzo Thread
+2023-07-05 10:54:12,155 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:54:12,155 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:54:12,155 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:54:13,163 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.5 - Terzo Thread
+2023-07-05 10:54:13,163 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:54:13,163 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.5 - Quarto Thread
+2023-07-05 10:54:13,163 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:54:13,163 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:54:14,164 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.6 - Quarto Thread
+2023-07-05 10:54:14,164 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:54:14,164 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.6 - Terzo Thread
+2023-07-05 10:54:14,164 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:54:14,164 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:54:15,179 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.7 - Quarto Thread
+2023-07-05 10:54:15,179 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:54:15,179 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.7 - Terzo Thread
+2023-07-05 10:54:15,179 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:54:16,192 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.8 - Quarto Thread
+2023-07-05 10:54:16,192 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.8 - Terzo Thread
+2023-07-05 10:54:17,193 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.9 - Quarto Thread
+2023-07-05 10:54:17,194 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.9 - Terzo Thread
+2023-07-05 10:54:18,194 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.10 - Quarto Thread
+2023-07-05 10:54:18,198 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.10 - Terzo Thread
+2023-07-05 10:54:19,209 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.11 - Terzo Thread
+2023-07-05 10:54:19,209 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.11 - Quarto Thread
+2023-07-05 10:54:20,212 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.12 - Terzo Thread
+2023-07-05 10:54:20,212 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.12 - Quarto Thread
+2023-07-05 10:54:21,227 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.13 - Terzo Thread
+2023-07-05 10:54:21,227 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.13 - Quarto Thread
+2023-07-05 10:54:22,227 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.14 - Terzo Thread
+2023-07-05 10:54:22,229 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.14 - Quarto Thread
+2023-07-05 10:54:23,228 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.15 - Terzo Thread
+2023-07-05 10:54:23,240 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.15 - Quarto Thread
+2023-07-05 10:54:24,236 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.16 - Terzo Thread
+2023-07-05 10:54:24,252 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.16 - Quarto Thread
+2023-07-05 10:54:25,248 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.17 - Terzo Thread
+2023-07-05 10:54:25,263 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.17 - Quarto Thread
+2023-07-05 10:54:26,250 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.18 - Terzo Thread
+2023-07-05 10:54:26,266 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.18 - Quarto Thread
+2023-07-05 10:54:27,261 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.19 - Terzo Thread
+2023-07-05 10:54:27,276 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.19 - Quarto Thread
+2023-07-05 10:54:28,265 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.20 - Terzo Thread
+2023-07-05 10:54:28,280 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.20 - Quarto Thread
+2023-07-05 10:56:31,746 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 10:56:31,746 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.0 - Quarto Thread
+2023-07-05 10:56:31,746 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 10:56:31,746 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.0 - Terzo Thread
+2023-07-05 10:56:32,758 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.1 - Quarto Thread
+2023-07-05 10:56:32,758 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 10:56:32,758 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 10:56:32,758 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.1 - Terzo Thread
+2023-07-05 10:56:32,758 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 10:56:32,758 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 10:56:32,758 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 10:56:32,758 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 10:56:33,770 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 10:56:33,770 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.2 - Terzo Thread
+2023-07-05 10:56:33,770 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 10:56:33,770 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.2 - Quarto Thread
+2023-07-05 10:56:33,770 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 10:56:33,770 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 10:56:33,770 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 10:56:33,770 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 10:56:34,779 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 10:56:34,779 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.3 - Terzo Thread
+2023-07-05 10:56:34,779 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.3 - Quarto Thread
+2023-07-05 10:56:34,779 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 10:56:34,779 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 10:56:34,779 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 10:56:34,779 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 10:56:34,780 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 10:56:35,793 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 10:56:35,793 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.4 - Terzo Thread
+2023-07-05 10:56:35,793 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 10:56:35,793 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.4 - Quarto Thread
+2023-07-05 10:56:35,793 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 10:56:35,793 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 10:56:35,793 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 10:56:35,793 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 10:56:36,803 [Thread-1] INFO  com.epicode.thread.TestThread - N.13 - Secondo Thread
+2023-07-05 10:56:36,803 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.5 - Terzo Thread
+2023-07-05 10:56:36,803 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 10:56:36,804 [Thread-1] INFO  com.epicode.thread.TestThread - N.14 - Secondo Thread
+2023-07-05 10:56:36,803 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.5 - Quarto Thread
+2023-07-05 10:56:36,804 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 10:56:36,804 [Thread-1] INFO  com.epicode.thread.TestThread - N.15 - Secondo Thread
+2023-07-05 10:56:36,804 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 10:56:37,818 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.6 - Terzo Thread
+2023-07-05 10:56:37,818 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 10:56:37,818 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.6 - Quarto Thread
+2023-07-05 10:56:37,818 [Thread-1] INFO  com.epicode.thread.TestThread - N.16 - Secondo Thread
+2023-07-05 10:56:37,818 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 10:56:37,818 [Thread-1] INFO  com.epicode.thread.TestThread - N.17 - Secondo Thread
+2023-07-05 10:56:37,818 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 10:56:37,818 [Thread-1] INFO  com.epicode.thread.TestThread - N.18 - Secondo Thread
+2023-07-05 10:56:38,830 [Thread-1] INFO  com.epicode.thread.TestThread - N.19 - Secondo Thread
+2023-07-05 10:56:38,830 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 10:56:38,830 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.7 - Quarto Thread
+2023-07-05 10:56:38,830 [Thread-1] INFO  com.epicode.thread.TestThread - N.20 - Secondo Thread
+2023-07-05 10:56:38,830 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.7 - Terzo Thread
+2023-07-05 10:56:38,830 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 10:56:38,830 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 10:56:39,843 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.8 - Terzo Thread
+2023-07-05 10:56:39,843 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.8 - Quarto Thread
+2023-07-05 10:56:40,857 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.9 - Quarto Thread
+2023-07-05 10:56:40,857 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.9 - Terzo Thread
+2023-07-05 10:56:41,868 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.10 - Terzo Thread
+2023-07-05 10:56:41,868 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.10 - Quarto Thread
+2023-07-05 10:56:42,870 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.11 - Terzo Thread
+2023-07-05 10:56:42,870 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.11 - Quarto Thread
+2023-07-05 10:56:43,883 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.12 - Terzo Thread
+2023-07-05 10:56:43,883 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.12 - Quarto Thread
+2023-07-05 10:56:44,898 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.13 - Quarto Thread
+2023-07-05 10:56:44,898 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.13 - Terzo Thread
+2023-07-05 10:56:45,910 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.14 - Quarto Thread
+2023-07-05 10:56:45,910 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.14 - Terzo Thread
+2023-07-05 10:56:46,924 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.15 - Quarto Thread
+2023-07-05 10:56:46,924 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.15 - Terzo Thread
+2023-07-05 10:56:47,927 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.16 - Quarto Thread
+2023-07-05 10:56:47,927 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.16 - Terzo Thread
+2023-07-05 10:56:48,936 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.17 - Terzo Thread
+2023-07-05 10:56:48,936 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.17 - Quarto Thread
+2023-07-05 10:56:49,950 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.18 - Quarto Thread
+2023-07-05 10:56:49,950 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.18 - Terzo Thread
+2023-07-05 10:56:50,963 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.19 - Quarto Thread
+2023-07-05 10:56:50,963 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.19 - Terzo Thread
+2023-07-05 10:56:51,977 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.20 - Quarto Thread
+2023-07-05 10:56:51,977 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.20 - Terzo Thread
+2023-07-05 11:48:58,491 [Thread-0] INFO  com.epicode.thread.TestThread - N.0 - Primo Thread
+2023-07-05 11:48:59,506 [Thread-0] INFO  com.epicode.thread.TestThread - N.1 - Primo Thread
+2023-07-05 11:48:59,507 [Thread-0] INFO  com.epicode.thread.TestThread - N.2 - Primo Thread
+2023-07-05 11:48:59,507 [Thread-0] INFO  com.epicode.thread.TestThread - N.3 - Primo Thread
+2023-07-05 11:49:00,518 [Thread-0] INFO  com.epicode.thread.TestThread - N.4 - Primo Thread
+2023-07-05 11:49:00,519 [Thread-0] INFO  com.epicode.thread.TestThread - N.5 - Primo Thread
+2023-07-05 11:49:00,519 [Thread-0] INFO  com.epicode.thread.TestThread - N.6 - Primo Thread
+2023-07-05 11:49:01,534 [Thread-0] INFO  com.epicode.thread.TestThread - N.7 - Primo Thread
+2023-07-05 11:49:01,534 [Thread-0] INFO  com.epicode.thread.TestThread - N.8 - Primo Thread
+2023-07-05 11:49:01,534 [Thread-0] INFO  com.epicode.thread.TestThread - N.9 - Primo Thread
+2023-07-05 11:49:02,547 [Thread-0] INFO  com.epicode.thread.TestThread - N.10 - Primo Thread
+2023-07-05 11:49:02,547 [Thread-0] INFO  com.epicode.thread.TestThread - N.11 - Primo Thread
+2023-07-05 11:49:02,547 [Thread-0] INFO  com.epicode.thread.TestThread - N.12 - Primo Thread
+2023-07-05 11:49:03,560 [Thread-0] INFO  com.epicode.thread.TestThread - N.13 - Primo Thread
+2023-07-05 11:49:03,560 [Thread-0] INFO  com.epicode.thread.TestThread - N.14 - Primo Thread
+2023-07-05 11:49:03,560 [Thread-0] INFO  com.epicode.thread.TestThread - N.15 - Primo Thread
+2023-07-05 11:49:04,562 [Thread-0] INFO  com.epicode.thread.TestThread - N.16 - Primo Thread
+2023-07-05 11:49:04,562 [Thread-0] INFO  com.epicode.thread.TestThread - N.17 - Primo Thread
+2023-07-05 11:49:04,562 [Thread-0] INFO  com.epicode.thread.TestThread - N.18 - Primo Thread
+2023-07-05 11:49:05,564 [Thread-0] INFO  com.epicode.thread.TestThread - N.19 - Primo Thread
+2023-07-05 11:49:05,564 [Thread-0] INFO  com.epicode.thread.TestThread - N.20 - Primo Thread
+2023-07-05 11:49:05,565 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.0 - Terzo Thread
+2023-07-05 11:49:05,565 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.0 - Quarto Thread
+2023-07-05 11:49:05,565 [main] INFO  com.epicode.thread.MainProject - FINE
+2023-07-05 11:49:05,565 [Thread-1] INFO  com.epicode.thread.TestThread - N.0 - Secondo Thread
+2023-07-05 11:49:06,566 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.1 - Quarto Thread
+2023-07-05 11:49:06,580 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.1 - Terzo Thread
+2023-07-05 11:49:06,596 [Thread-1] INFO  com.epicode.thread.TestThread - N.1 - Secondo Thread
+2023-07-05 11:49:06,596 [Thread-1] INFO  com.epicode.thread.TestThread - N.2 - Secondo Thread
+2023-07-05 11:49:06,596 [Thread-1] INFO  com.epicode.thread.TestThread - N.3 - Secondo Thread
+2023-07-05 11:49:07,576 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.2 - Quarto Thread
+2023-07-05 11:49:07,591 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.2 - Terzo Thread
+2023-07-05 11:49:07,606 [Thread-1] INFO  com.epicode.thread.TestThread - N.4 - Secondo Thread
+2023-07-05 11:49:07,606 [Thread-1] INFO  com.epicode.thread.TestThread - N.5 - Secondo Thread
+2023-07-05 11:49:07,606 [Thread-1] INFO  com.epicode.thread.TestThread - N.6 - Secondo Thread
+2023-07-05 11:49:08,579 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.3 - Quarto Thread
+2023-07-05 11:49:08,593 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.3 - Terzo Thread
+2023-07-05 11:49:08,607 [Thread-1] INFO  com.epicode.thread.TestThread - N.7 - Secondo Thread
+2023-07-05 11:49:08,607 [Thread-1] INFO  com.epicode.thread.TestThread - N.8 - Secondo Thread
+2023-07-05 11:49:08,607 [Thread-1] INFO  com.epicode.thread.TestThread - N.9 - Secondo Thread
+2023-07-05 11:49:09,585 [Thread-3] INFO  com.epicode.thread.TestRunnable - N.4 - Quarto Thread
+2023-07-05 11:49:09,602 [Thread-2] INFO  com.epicode.thread.TestRunnable - N.4 - Terzo Thread
+2023-07-05 11:49:09,616 [Thread-1] INFO  com.epicode.thread.TestThread - N.10 - Secondo Thread
+2023-07-05 11:49:09,617 [Thread-1] INFO  com.epicode.thread.TestThread - N.11 - Secondo Thread
+2023-07-05 11:49:09,617 [Thread-1] INFO  com.epicode.thread.TestThread - N.12 - Secondo Thread
+2023-07-05 11:49:17,875 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:49:17,879 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:49:17,879 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:49:17,879 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:49:17,879 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:49:17,881 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:49:17,881 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:49:17,881 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:50:08,115 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:50:08,119 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:50:08,120 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:50:08,120 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:50:08,120 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:50:08,120 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:50:08,120 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:50:08,120 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:50:08,140 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:50:08,140 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=-100.0, titolare=Famiglia Rossi]
+2023-07-05 11:52:58,160 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:52:58,160 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:52:58,166 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:52:58,166 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:52:58,166 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:52:58,166 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:52:58,166 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:52:58,166 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:13,288 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:13,288 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:13,295 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:13,295 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:13,295 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:13,295 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:13,295 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:13,295 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:17,993 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:17,993 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:17,998 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:17,998 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:17,998 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:17,998 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:17,999 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:17,999 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:23,230 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:23,230 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:23,237 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:23,237 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:23,237 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:23,237 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:23,237 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:23,237 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:27,680 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:27,680 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:27,685 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:27,685 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:27,687 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:27,687 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:27,687 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:27,687 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:31,131 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:31,131 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:31,136 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:31,136 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:31,136 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:31,136 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:31,136 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:31,136 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:37,329 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:37,329 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:37,334 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:37,334 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:37,334 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:37,334 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:37,334 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:37,334 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:41,111 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:41,111 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:41,116 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:41,116 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:41,117 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:41,117 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:41,117 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:41,117 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:44,279 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:44,279 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:44,285 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:44,285 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:44,286 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:44,286 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:44,286 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:44,286 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:47,820 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:47,820 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:47,827 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:47,827 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:47,828 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:47,828 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:47,828 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:47,828 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:51,933 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:51,933 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:51,938 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:51,938 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:51,938 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:51,938 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:53:51,938 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:53:51,939 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:02,779 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:02,779 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:02,784 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:02,784 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:02,784 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:02,784 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:02,784 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:02,784 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:08,769 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:08,769 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:08,773 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:08,773 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:08,774 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:08,774 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:08,774 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:08,774 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:23,975 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:23,975 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:23,983 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:23,983 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:23,983 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:23,983 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:23,983 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:23,984 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:54:23,984 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:54:23,984 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=-100.0, titolare=Famiglia Rossi]
+2023-07-05 11:56:57,678 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:56:57,682 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:56:57,682 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:56:57,683 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:56:57,683 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:56:57,683 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:56:57,683 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:56:57,683 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:56:57,683 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:24,852 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:24,856 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:24,856 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:24,857 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:24,857 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:24,857 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:24,857 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:24,857 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:24,857 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:29,252 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:29,255 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:29,255 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:29,256 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:29,256 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:29,256 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:29,256 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:57:29,256 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:57:29,256 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:58:02,749 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:58:02,753 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 11:58:02,753 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:58:02,754 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 11:58:02,754 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:58:02,754 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 11:58:02,754 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 11:58:02,754 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 11:58:02,754 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:20,402 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:20,402 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:20,407 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:20,407 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:20,407 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:20,407 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:20,407 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:20,407 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:53,672 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:53,672 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:53,677 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:53,677 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:53,677 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:53,678 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:53,678 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:53,678 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 12:00:53,678 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:00:53,678 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=-100.0, titolare=Famiglia Rossi]
+2023-07-05 12:01:35,193 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:01:35,197 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=300.0, titolare=Famiglia Rossi]
+2023-07-05 12:01:35,197 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:01:35,198 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=200.0, titolare=Famiglia Rossi]
+2023-07-05 12:01:35,198 [Thread-0] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:01:35,198 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=100.0, titolare=Famiglia Rossi]
+2023-07-05 12:01:35,198 [Thread-1] INFO  c.e.contocorrente.Contocorrente - Prelievo dal conto di Famiglia Rossi €100.0
+2023-07-05 12:01:35,198 [Thread-1] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 12:01:35,198 [Thread-0] INFO  com.epicode.contocorrente.Bancomat - Prelievo effettuato su : Contocorrente [saldo=0.0, titolare=Famiglia Rossi]
+2023-07-05 12:53:07,149 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 12:53:56,719 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 12:58:47,454 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 12:58:58,952 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 12:59:03,872 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 13:00:37,487 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 13:00:37,493 [main] INFO  com.epicode.iofile.MainProject - File eliminato
+2023-07-05 13:00:59,969 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 13:00:59,974 [main] INFO  com.epicode.iofile.MainProject - File eliminato
+2023-07-05 13:03:31,318 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 13:03:44,190 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 13:03:52,249 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 13:03:54,184 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt
+2023-07-05 13:03:55,762 [main] INFO  com.epicode.iofile.MainProject - Testo scritto su file doc\test.txt

@@ -1,0 +1,7 @@
+[codiceISBN=80729, titolo=Adrenalina, annoPubblicazione=2021, numeroPagine=316, autore=Zlatan Ibrahimovic, genere=autobiografico]
+[codiceISBN=86511, titolo=Maradona, annoPubblicazione=2021, numeroPagine=336, autore=Jimmy Burns, genere=sport]
+[codiceISBN=80920, titolo=Codice da Vinci, annoPubblicazione=2006, numeroPagine=796, autore=Dan Brown, genere=drammatico]
+[codiceISBN=99232, titolo=Calcio 2000, annoPubblicazione=2022, numeroPagine=250, periodicita=MENSILE]
+[codiceISBN=37347, titolo=Focus, annoPubblicazione=1992, numeroPagine=117, periodicita=MENSILE]
+[codiceISBN=82023, titolo=Settimana enigmistica, annoPubblicazione=1986, numeroPagine=64, periodicita=SETTIMANALE]
+[codiceISBN=43540, titolo=Padre Ricco, annoPubblicazione=TremilaMAI, numeroPagine=446, autore=Robert Kiyosaki, genere=economico]

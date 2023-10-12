@@ -1,0 +1,4 @@
+2023-07-06 15:31:55,142 [main] INFO  application.Main - I libri che costano più di 100 euro sono: [Product name: 1984]
+2023-07-06 15:31:55,145 [main] INFO  application.Main - Gli ordini che contengono prodotti 'Baby' sono: [Order 12345 - Customer: Mario - Products: [Stroller], Order 12345 - Customer: Riccardo - Products: [Crib]]
+2023-07-06 15:31:55,147 [main] INFO  application.Main - Gli ordini che contengono prodotti 'Boys' sono: [ID: 54322 Product Name: PlayStation Category: Boys Price: 450.891, ID: 44114 Product Name: XBox Category: Boys Price: 405.81]
+2023-07-06 15:31:55,149 [main] INFO  application.Main - Prodotti ordinati da clienti di livello 2 tra 01-Feb-2021 e 01-Apr-2021: [Crib, Motorcycle, XBox]

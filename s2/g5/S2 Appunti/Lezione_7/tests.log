@@ -1,0 +1,78 @@
+2023-07-04 09:39:16,723 [main] DEBUG com.epicode.collections.MainProject - log.debug test
+2023-07-04 09:39:16,729 [main] INFO  com.epicode.collections.MainProject - log.info test
+2023-07-04 09:39:16,729 [main] WARN  com.epicode.collections.MainProject - log.warning test
+2023-07-04 09:39:16,729 [main] ERROR com.epicode.collections.MainProject - log.error test
+2023-07-04 10:46:40,937 [main] INFO  com.epicode.collections.MainProject - Primo Elemento
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Secondo Elemento
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Terzo Elemento
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Primo Elemento
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' true
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Collection isEmpty false
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Collection size 4
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' false
+2023-07-04 10:46:40,941 [main] INFO  com.epicode.collections.MainProject - Collection size 0
+2023-07-04 10:47:14,718 [main] INFO  com.epicode.collections.MainProject - Elemento: Primo Elemento
+2023-07-04 10:47:14,721 [main] INFO  com.epicode.collections.MainProject - Elemento: Secondo Elemento
+2023-07-04 10:47:14,721 [main] INFO  com.epicode.collections.MainProject - Elemento: Terzo Elemento
+2023-07-04 10:47:14,721 [main] INFO  com.epicode.collections.MainProject - Elemento: Primo Elemento
+2023-07-04 10:47:14,721 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' true
+2023-07-04 10:47:14,723 [main] INFO  com.epicode.collections.MainProject - Collection isEmpty false
+2023-07-04 10:47:14,723 [main] INFO  com.epicode.collections.MainProject - Collection size 4
+2023-07-04 10:47:14,723 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' false
+2023-07-04 10:47:14,723 [main] INFO  com.epicode.collections.MainProject - Collection size 0
+2023-07-04 11:06:29,046 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' true
+2023-07-04 11:06:29,049 [main] INFO  com.epicode.collections.MainProject - Collection isEmpty false
+2023-07-04 11:06:29,049 [main] INFO  com.epicode.collections.MainProject - Collection size 4
+2023-07-04 11:06:29,049 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' false
+2023-07-04 11:06:29,050 [main] INFO  com.epicode.collections.MainProject - Collection size 3
+2023-07-04 11:06:29,050 [main] INFO  com.epicode.collections.MainProject - List indice 0: Primo Elemento
+2023-07-04 11:06:29,050 [main] INFO  com.epicode.collections.MainProject - Indice 'Terzo Elemento': -1
+2023-07-04 11:06:29,050 [main] INFO  com.epicode.collections.MainProject - Elemento: Primo Elemento
+2023-07-04 11:06:29,050 [main] INFO  com.epicode.collections.MainProject - Elemento: Elemento modificato
+2023-07-04 11:06:29,050 [main] INFO  com.epicode.collections.MainProject - Elemento: Primo Elemento
+2023-07-04 11:33:31,968 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' true
+2023-07-04 11:33:31,971 [main] INFO  com.epicode.collections.MainProject - Collection isEmpty false
+2023-07-04 11:33:31,971 [main] INFO  com.epicode.collections.MainProject - Collection size 3
+2023-07-04 11:33:31,971 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' false
+2023-07-04 11:33:31,971 [main] INFO  com.epicode.collections.MainProject - Collection size 2
+2023-07-04 11:33:31,971 [main] INFO  com.epicode.collections.MainProject - Elemento: Terzo Elemento
+2023-07-04 11:33:31,971 [main] INFO  com.epicode.collections.MainProject - Elemento: Primo Elemento
+2023-07-04 11:42:03,142 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' true
+2023-07-04 11:42:03,148 [main] INFO  com.epicode.collections.MainProject - Set isEmpty false
+2023-07-04 11:42:03,148 [main] INFO  com.epicode.collections.MainProject - Collection size 3
+2023-07-04 11:42:03,148 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' false
+2023-07-04 11:42:03,148 [main] INFO  com.epicode.collections.MainProject - Collection size 2
+2023-07-04 11:42:03,149 [main] INFO  com.epicode.collections.MainProject - Elemento: Primo Elemento
+2023-07-04 11:42:03,149 [main] INFO  com.epicode.collections.MainProject - Elemento: Terzo Elemento
+2023-07-04 11:58:47,239 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' true
+2023-07-04 11:58:47,243 [main] INFO  com.epicode.collections.MainProject - Queue isEmpty false
+2023-07-04 11:58:47,244 [main] INFO  com.epicode.collections.MainProject - Queue size 3
+2023-07-04 11:58:47,244 [main] INFO  com.epicode.collections.MainProject - Queue primoPeek Primo Elemento
+2023-07-04 11:58:47,244 [main] INFO  com.epicode.collections.MainProject - Queue primoPool Primo Elemento
+2023-07-04 11:58:47,244 [main] INFO  com.epicode.collections.MainProject - Elemento: Secondo Elemento
+2023-07-04 11:58:47,244 [main] INFO  com.epicode.collections.MainProject - Elemento: Terzo Elemento
+2023-07-04 12:00:45,853 [main] INFO  com.epicode.collections.MainProject - Contains 'Secondo Elemento' true
+2023-07-04 12:00:45,857 [main] INFO  com.epicode.collections.MainProject - Queue isEmpty false
+2023-07-04 12:00:45,857 [main] INFO  com.epicode.collections.MainProject - Queue size 3
+2023-07-04 12:00:45,857 [main] INFO  com.epicode.collections.MainProject - Queue primoPeek Primo Elemento
+2023-07-04 12:00:45,857 [main] INFO  com.epicode.collections.MainProject - Queue primoPool Primo Elemento
+2023-07-04 12:00:45,857 [main] INFO  com.epicode.collections.MainProject - Elemento: Terzo Elemento
+2023-07-04 12:38:40,592 [main] INFO  com.epicode.collections.MainProject - Map isEmpty false
+2023-07-04 12:38:40,596 [main] INFO  com.epicode.collections.MainProject - Map Contains Key true
+2023-07-04 12:38:40,596 [main] INFO  com.epicode.collections.MainProject - Map Key AB002 Secondo Elemento
+2023-07-04 12:38:40,597 [main] INFO  com.epicode.collections.MainProject - Map size 2
+2023-07-04 12:38:40,597 [main] INFO  com.epicode.collections.MainProject - Elemento: Terzo Elemento
+2023-07-04 12:38:40,597 [main] INFO  com.epicode.collections.MainProject - Elemento: Primo Elemento
+2023-07-04 12:41:12,200 [main] INFO  com.epicode.collections.MainProject - Map isEmpty false
+2023-07-04 12:41:12,203 [main] INFO  com.epicode.collections.MainProject - Map Contains Key true
+2023-07-04 12:41:12,204 [main] INFO  com.epicode.collections.MainProject - Map Key AB002 Secondo Elemento
+2023-07-04 12:41:12,204 [main] INFO  com.epicode.collections.MainProject - Map size 2
+2023-07-04 12:41:12,204 [main] INFO  com.epicode.collections.MainProject - Elemento key: AB003 Value: Terzo Elemento
+2023-07-04 12:41:12,204 [main] INFO  com.epicode.collections.MainProject - Elemento key: AB001 Value: Primo Elemento
+2023-07-04 12:41:28,698 [main] INFO  com.epicode.collections.MainProject - Map isEmpty false
+2023-07-04 12:41:28,702 [main] INFO  com.epicode.collections.MainProject - Map Contains Key true
+2023-07-04 12:41:28,702 [main] INFO  com.epicode.collections.MainProject - Map Key AB002 Secondo Elemento
+2023-07-04 12:41:28,702 [main] INFO  com.epicode.collections.MainProject - Map size 3
+2023-07-04 12:41:28,702 [main] INFO  com.epicode.collections.MainProject - Elemento key: AB003 Value: Terzo Elemento
+2023-07-04 12:41:28,702 [main] INFO  com.epicode.collections.MainProject - Elemento key: AB001 Value: Primo Elemento
+2023-07-04 12:41:28,702 [main] INFO  com.epicode.collections.MainProject - Elemento key: AB002 Value: Secondo Elemento
