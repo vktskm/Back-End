@@ -1,0 +1,38 @@
+Esercizio #1 (adapter)
+Scrivere il codice che implementa il pattern Adapter in una 
+applicazione che deve usare le due classi seguenti. 
+È fornita anche l’interfaccia usata dalla prima classe.
+
+public interface DataSource { 
+ public String getNomeCompleto(); 
+ public int getEta(); 
+} 
+public class UserData { 
+ private String nomeCompleto; 
+ private int eta; 
+ public void getData(DataSource ds) { 
+ nomeCompleto = ds. getNomeCompleto (); 
+ eta = ds.getEta(); 
+ } 
+} 
+public class Info { 
+ private String nome; 
+ private String cognome; 
+ private Date dataDiNascita; 
+ public String getNome() { return nome;} 
+ public void setNome(String nome) { this.nome = nome;} 
+ public String getCognome() { return cognome;} 
+ public void setCognome(String cognome) { this. cognome = cognome;} 
+ public Date getDataDiNascita() { return dataDiNascita;} 
+ public void DataDiNascita (Date dataDiNascita) { this. dataDiNascita = dataDiNascita;} 
+}
+
+In particolare, si noti che: 
+- UseData chiama getNomeCompleto mentre Info mette a disposizione 
+	getNome e getCognome; 
+- UseData chiama getEta mentre Info mette a disposizione 
+	getDataDiNascita; 
+- Info non implementa l’interfaccia DataSource. 
+Definire quindi una classe Adapter che implementi DataSource e 
+possa essere utilizzata da UseData, ma  allo stesso tempo 
+recuperi le informazioni da un oggetto di classe Info. 

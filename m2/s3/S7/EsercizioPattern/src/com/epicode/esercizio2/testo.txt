@@ -1,0 +1,9 @@
+Esercizio #2 (composite)
+Modellare questo dominio: 
+– Un libro è composto da pagine, eventualmente organizzate in sezioni. 
+	Ogni sezione può contenere sottosezioni (una o più) e pagine semplici. 
+– Eʼ possibile stampare una pagina singola, una sezione o lʼintero libro.
+- Il libro ha una lista di autori
+- Il libro ha un prezzo
+- Ogni sezione ha un numero di pagine che è dato dalla somma delle pagine dei suoi sottoelementi
+- Deve essere possibile chiedere al libro il numero totale di pagine
