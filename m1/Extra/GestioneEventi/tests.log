@@ -1,0 +1,779 @@
+2023-07-13 16:59:39,977 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2023-07-13 16:59:40,057 [main] DEBUG o.h.jpa.HibernatePersistenceProvider - Located and parsed 1 persistence units; checking each
+2023-07-13 16:59:40,058 [main] DEBUG o.h.jpa.HibernatePersistenceProvider - Checking persistence-unit [name=GestioneEventi, explicit-provider=null] against incoming persistence unit name [GestioneEventi]
+2023-07-13 16:59:40,058 [main] DEBUG o.h.jpa.boot.spi.ProviderChecker - No PersistenceProvider explicitly requested, assuming Hibernate
+2023-07-13 16:59:40,063 [main] DEBUG o.h.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: GestioneEventi
+	persistence provider classname: null
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/emau7/workspace-Epicode_FS0223/GestioneEventi/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names []
+	Mapping files names []
+	Properties [
+		javax.persistence.jdbc.driver: org.postgresql.Driver
+		javax.persistence.jdbc.password: root
+		hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+		javax.persistence.jdbc.url: jdbc:postgresql://localhost:5432/gestioneeventi
+		hibernate.hbm2ddl.auto: update
+		javax.persistence.jdbc.user: postgres]
+2023-07-13 16:59:40,067 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2023-07-13 16:59:40,069 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2023-07-13 16:59:40,071 [main] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2023-07-13 16:59:40,100 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-07-13 16:59:40,101 [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-07-13 16:59:40,235 [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2023-07-13 16:59:40,246 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2023-07-13 16:59:40,246 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2023-07-13 16:59:40,259 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-13 16:59:40,347 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@bcef303
+2023-07-13 16:59:40,349 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@bcef303
+2023-07-13 16:59:40,350 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@bcef303
+2023-07-13 16:59:40,350 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5443d039
+2023-07-13 16:59:40,351 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@2e1ef60
+2023-07-13 16:59:40,351 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@34f22f9d
+2023-07-13 16:59:40,352 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@2a62b5bc
+2023-07-13 16:59:40,352 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@2a62b5bc
+2023-07-13 16:59:40,352 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@2a62b5bc
+2023-07-13 16:59:40,353 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@1f3f02ee
+2023-07-13 16:59:40,353 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@1f3f02ee
+2023-07-13 16:59:40,354 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1f3f02ee
+2023-07-13 16:59:40,354 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@6155d082
+2023-07-13 16:59:40,354 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@6155d082
+2023-07-13 16:59:40,354 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@6155d082
+2023-07-13 16:59:40,355 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@21a21c64
+2023-07-13 16:59:40,355 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@21a21c64
+2023-07-13 16:59:40,356 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@21a21c64
+2023-07-13 16:59:40,357 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@6f3c660a
+2023-07-13 16:59:40,357 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@6f3c660a
+2023-07-13 16:59:40,357 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@6f3c660a
+2023-07-13 16:59:40,358 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@79179359
+2023-07-13 16:59:40,358 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@79179359
+2023-07-13 16:59:40,358 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@79179359
+2023-07-13 16:59:40,359 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@3a0baae5
+2023-07-13 16:59:40,359 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@3a0baae5
+2023-07-13 16:59:40,359 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3a0baae5
+2023-07-13 16:59:40,360 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4c51cf28
+2023-07-13 16:59:40,360 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4c51cf28
+2023-07-13 16:59:40,361 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5b1ebf56
+2023-07-13 16:59:40,361 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5b1ebf56
+2023-07-13 16:59:40,361 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@6e950bcf
+2023-07-13 16:59:40,361 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@6e950bcf
+2023-07-13 16:59:40,362 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@46dffdc3
+2023-07-13 16:59:40,362 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@53dbe163
+2023-07-13 16:59:40,363 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@18a136ac
+2023-07-13 16:59:40,363 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@18a136ac
+2023-07-13 16:59:40,364 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@134d26af
+2023-07-13 16:59:40,364 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@134d26af
+2023-07-13 16:59:40,365 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@7862f56
+2023-07-13 16:59:40,365 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@7862f56
+2023-07-13 16:59:40,366 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@33fe57a9
+2023-07-13 16:59:40,366 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@33fe57a9
+2023-07-13 16:59:40,367 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@61a88b8c
+2023-07-13 16:59:40,367 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@61a88b8c
+2023-07-13 16:59:40,367 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@77258e59
+2023-07-13 16:59:40,368 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@77258e59
+2023-07-13 16:59:40,369 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@41d426b5
+2023-07-13 16:59:40,369 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@41d426b5
+2023-07-13 16:59:40,370 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@2e2ff723
+2023-07-13 16:59:40,370 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@2e2ff723
+2023-07-13 16:59:40,371 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@46944ca9
+2023-07-13 16:59:40,372 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@46944ca9
+2023-07-13 16:59:40,373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@e8df99a
+2023-07-13 16:59:40,373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@e8df99a
+2023-07-13 16:59:40,374 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@4ff4357f
+2023-07-13 16:59:40,374 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4ff4357f
+2023-07-13 16:59:40,375 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@76884e4b
+2023-07-13 16:59:40,375 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@76884e4b
+2023-07-13 16:59:40,375 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@76884e4b
+2023-07-13 16:59:40,377 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@35229f85
+2023-07-13 16:59:40,378 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@2eee3069
+2023-07-13 16:59:40,378 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2eee3069
+2023-07-13 16:59:40,378 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2eee3069
+2023-07-13 16:59:40,378 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@13d9b21f
+2023-07-13 16:59:40,379 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@687ef2e0
+2023-07-13 16:59:40,380 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@497486b3
+2023-07-13 16:59:40,380 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@497486b3
+2023-07-13 16:59:40,381 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@635572a7
+2023-07-13 16:59:40,381 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@635572a7
+2023-07-13 16:59:40,381 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@222eb8aa
+2023-07-13 16:59:40,381 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@222eb8aa
+2023-07-13 16:59:40,382 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@2a76840c
+2023-07-13 16:59:40,382 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2a76840c
+2023-07-13 16:59:40,383 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2fc6f97f
+2023-07-13 16:59:40,383 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2fc6f97f
+2023-07-13 16:59:40,383 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2d6764b2
+2023-07-13 16:59:40,384 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5023bb8b
+2023-07-13 16:59:40,384 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5023bb8b
+2023-07-13 16:59:40,384 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5023bb8b
+2023-07-13 16:59:40,385 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5cde6747
+2023-07-13 16:59:40,385 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5cde6747
+2023-07-13 16:59:40,385 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5cde6747
+2023-07-13 16:59:40,386 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@2d96543c
+2023-07-13 16:59:40,386 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@cd1d761
+2023-07-13 16:59:40,386 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@906d29b
+2023-07-13 16:59:40,387 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@906d29b
+2023-07-13 16:59:40,387 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@906d29b
+2023-07-13 16:59:40,387 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@57abad67
+2023-07-13 16:59:40,387 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@57abad67
+2023-07-13 16:59:40,387 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@57abad67
+2023-07-13 16:59:40,388 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@584f54e6
+2023-07-13 16:59:40,388 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@f80945f
+2023-07-13 16:59:40,389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@604f2bd2
+2023-07-13 16:59:40,389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@604f2bd2
+2023-07-13 16:59:40,389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7b84fcf8
+2023-07-13 16:59:40,390 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@663411de
+2023-07-13 16:59:40,390 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@663411de
+2023-07-13 16:59:40,391 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@305a0c5f
+2023-07-13 16:59:40,392 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@305a0c5f
+2023-07-13 16:59:40,392 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@232a7d73
+2023-07-13 16:59:40,392 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@42721fe
+2023-07-13 16:59:40,393 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@1817f1eb
+2023-07-13 16:59:40,396 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@6d9f7a80
+2023-07-13 16:59:40,396 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6d9f7a80
+2023-07-13 16:59:40,396 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@241e8ea6
+2023-07-13 16:59:40,396 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@542e560f
+2023-07-13 16:59:40,396 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@626c44e7
+2023-07-13 16:59:40,397 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4dc8caa7
+2023-07-13 16:59:40,397 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1d730606
+2023-07-13 16:59:40,397 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3bcbb589
+2023-07-13 16:59:40,397 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3b00856b
+2023-07-13 16:59:40,397 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3016fd5e
+2023-07-13 16:59:40,405 [main] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@6b00f608] into BootstrapContext; was [null]
+2023-07-13 16:59:40,405 [main] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@2f17e30d] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@3e821657]
+2023-07-13 16:59:40,451 [main] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [null]
+2023-07-13 16:59:40,451 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was null]
+2023-07-13 16:59:40,458 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2023-07-13 16:59:40,459 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2023-07-13 16:59:40,459 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2023-07-13 16:59:40,460 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2023-07-13 16:59:40,460 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2023-07-13 16:59:40,463 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2023-07-13 16:59:40,463 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2023-07-13 16:59:40,465 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-07-13 16:59:40,465 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2023-07-13 16:59:40,466 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2023-07-13 16:59:40,466 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2023-07-13 16:59:40,466 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2023-07-13 16:59:40,466 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-07-13 16:59:40,467 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2023-07-13 16:59:40,471 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-07-13 16:59:40,473 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gestioneeventi]
+2023-07-13 16:59:40,474 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=root, user=postgres}
+2023-07-13 16:59:40,474 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-07-13 16:59:40,477 [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+2023-07-13 16:59:40,477 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-07-13 16:59:40,688 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : PostgreSQL
+    version : 15.2
+      major : 15
+      minor : 2
+2023-07-13 16:59:40,689 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.6.0
+      major : 42
+      minor : 6
+2023-07-13 16:59:40,689 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+2023-07-13 16:59:40,702 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-13 16:59:40,717 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2023-07-13 16:59:40,741 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@9257031
+2023-07-13 16:59:40,741 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@9257031
+2023-07-13 16:59:40,741 [main] DEBUG o.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2fc6f97f
+2023-07-13 16:59:40,743 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@438bad7c] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@25230246]
+2023-07-13 16:59:40,776 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2023-07-13 16:59:40,786 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.Location
+2023-07-13 16:59:40,802 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2023-07-13 16:59:40,807 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Location
+2023-07-13 16:59:40,814 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity model.Location on table Location
+2023-07-13 16:59:40,839 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Location), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,841 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Location] is safe
+2023-07-13 16:59:40,841 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Location
+2023-07-13 16:59:40,843 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2023-07-13 16:59:40,844 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Location:id]
+2023-07-13 16:59:40,846 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+2023-07-13 16:59:40,848 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+2023-07-13 16:59:40,854 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, location_seq, ...)
+2023-07-13 16:59:40,857 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Location), mappingColumn=citta, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,858 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property citta with lazy=false
+2023-07-13 16:59:40,858 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Location:citta]
+2023-07-13 16:59:40,858 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for citta
+2023-07-13 16:59:40,858 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property citta
+2023-07-13 16:59:40,858 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Location), mappingColumn=nome, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,858 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nome with lazy=false
+2023-07-13 16:59:40,858 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Location:nome]
+2023-07-13 16:59:40,858 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nome
+2023-07-13 16:59:40,858 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nome
+2023-07-13 16:59:40,864 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.Partecipazione
+2023-07-13 16:59:40,864 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2023-07-13 16:59:40,865 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Partecipazione
+2023-07-13 16:59:40,865 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity model.Partecipazione on table Partecipazione
+2023-07-13 16:59:40,870 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Partecipazione), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,870 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Partecipazione] is safe
+2023-07-13 16:59:40,871 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Partecipazione
+2023-07-13 16:59:40,871 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2023-07-13 16:59:40,871 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Partecipazione:id]
+2023-07-13 16:59:40,871 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+2023-07-13 16:59:40,871 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+2023-07-13 16:59:40,871 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, partecipazione_seq, ...)
+2023-07-13 16:59:40,873 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+2023-07-13 16:59:40,873 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Partecipazione), mappingColumn=evento, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,880 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property evento
+2023-07-13 16:59:40,880 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+2023-07-13 16:59:40,880 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Partecipazione), mappingColumn=persona, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,880 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property persona
+2023-07-13 16:59:40,880 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Partecipazione), mappingColumn=stato, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,880 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property stato with lazy=false
+2023-07-13 16:59:40,881 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Partecipazione:stato]
+2023-07-13 16:59:40,883 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for stato
+2023-07-13 16:59:40,884 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property stato
+2023-07-13 16:59:40,884 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.Persona
+2023-07-13 16:59:40,884 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2023-07-13 16:59:40,884 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Persona
+2023-07-13 16:59:40,884 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity model.Persona on table Persona
+2023-07-13 16:59:40,890 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,890 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Persona] is safe
+2023-07-13 16:59:40,890 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Persona
+2023-07-13 16:59:40,890 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2023-07-13 16:59:40,890 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Persona:id]
+2023-07-13 16:59:40,890 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+2023-07-13 16:59:40,890 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+2023-07-13 16:59:40,890 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, persona_seq, ...)
+2023-07-13 16:59:40,890 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=cognome, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,890 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property cognome with lazy=false
+2023-07-13 16:59:40,890 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Persona:cognome]
+2023-07-13 16:59:40,891 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for cognome
+2023-07-13 16:59:40,891 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property cognome
+2023-07-13 16:59:40,891 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=dataDiNascita, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,891 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property dataDiNascita with lazy=false
+2023-07-13 16:59:40,891 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Persona:dataDiNascita]
+2023-07-13 16:59:40,891 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for dataDiNascita
+2023-07-13 16:59:40,891 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property dataDiNascita
+2023-07-13 16:59:40,891 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,891 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false
+2023-07-13 16:59:40,891 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Persona:email]
+2023-07-13 16:59:40,891 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email
+2023-07-13 16:59:40,891 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email
+2023-07-13 16:59:40,891 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='persona'}
+2023-07-13 16:59:40,892 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=listaPartecipazioni, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,893 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,898 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,899 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=listaPartecipazioni_KEY, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,899 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='listaPartecipazioni_KEY', referencedColumn='null', mappedBy='null'}
+2023-07-13 16:59:40,900 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='persona'}
+2023-07-13 16:59:40,900 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='persona'}
+2023-07-13 16:59:40,900 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Collection role: model.Persona.listaPartecipazioni
+2023-07-13 16:59:40,901 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property listaPartecipazioni
+2023-07-13 16:59:40,902 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=nome, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,902 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nome with lazy=false
+2023-07-13 16:59:40,902 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Persona:nome]
+2023-07-13 16:59:40,902 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nome
+2023-07-13 16:59:40,902 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nome
+2023-07-13 16:59:40,902 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Persona), mappingColumn=sesso, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,902 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property sesso with lazy=false
+2023-07-13 16:59:40,902 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Persona:sesso]
+2023-07-13 16:59:40,902 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for sesso
+2023-07-13 16:59:40,902 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property sesso
+2023-07-13 16:59:40,903 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.Evento
+2023-07-13 16:59:40,903 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Evento
+2023-07-13 16:59:40,903 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity model.Evento on table Evento
+2023-07-13 16:59:40,906 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,906 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Evento] is safe
+2023-07-13 16:59:40,906 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Evento
+2023-07-13 16:59:40,906 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2023-07-13 16:59:40,906 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Evento:id]
+2023-07-13 16:59:40,906 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+2023-07-13 16:59:40,906 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+2023-07-13 16:59:40,907 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, evento_seq, ...)
+2023-07-13 16:59:40,907 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=dataEvento, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,907 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property dataEvento with lazy=false
+2023-07-13 16:59:40,907 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Evento:dataEvento]
+2023-07-13 16:59:40,907 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for dataEvento
+2023-07-13 16:59:40,907 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property dataEvento
+2023-07-13 16:59:40,907 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=descrizione, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,907 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property descrizione with lazy=false
+2023-07-13 16:59:40,907 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Evento:descrizione]
+2023-07-13 16:59:40,907 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for descrizione
+2023-07-13 16:59:40,907 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property descrizione
+2023-07-13 16:59:40,907 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+2023-07-13 16:59:40,907 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=location, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,907 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property location
+2023-07-13 16:59:40,907 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=numeroMassimoPartecipanti, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,908 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property numeroMassimoPartecipanti with lazy=false
+2023-07-13 16:59:40,908 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Evento:numeroMassimoPartecipanti]
+2023-07-13 16:59:40,908 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for numeroMassimoPartecipanti
+2023-07-13 16:59:40,908 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property numeroMassimoPartecipanti
+2023-07-13 16:59:40,908 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='evento'}
+2023-07-13 16:59:40,908 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=setPartecipazioni, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,908 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,909 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,909 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=setPartecipazioni_KEY, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,909 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='setPartecipazioni_KEY', referencedColumn='null', mappedBy='null'}
+2023-07-13 16:59:40,909 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='evento'}
+2023-07-13 16:59:40,909 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='evento'}
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Collection role: model.Evento.setPartecipazioni
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property setPartecipazioni
+2023-07-13 16:59:40,910 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=tipoEvento, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property tipoEvento with lazy=false
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Evento:tipoEvento]
+2023-07-13 16:59:40,910 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for tipoEvento
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property tipoEvento
+2023-07-13 16:59:40,910 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Evento), mappingColumn=titolo, insertable=true, updatable=true, unique=false}
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property titolo with lazy=false
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.Evento:titolo]
+2023-07-13 16:59:40,910 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for titolo
+2023-07-13 16:59:40,910 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property titolo
+2023-07-13 16:59:40,912 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2023-07-13 16:59:40,912 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for citta
+2023-07-13 16:59:40,912 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nome
+2023-07-13 16:59:40,912 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2023-07-13 16:59:40,912 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for stato
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for cognome
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for dataDiNascita
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nome
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for sesso
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for dataEvento
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for descrizione
+2023-07-13 16:59:40,913 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for numeroMassimoPartecipanti
+2023-07-13 16:59:40,914 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for tipoEvento
+2023-07-13 16:59:40,914 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for titolo
+2023-07-13 16:59:40,918 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [location]
+2023-07-13 16:59:40,919 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [partecipazione]
+2023-07-13 16:59:40,919 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [persona]
+2023-07-13 16:59:40,919 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [evento]
+2023-07-13 16:59:40,919 [main] DEBUG o.hibernate.cfg.CollectionSecondPass - Second pass for collection: model.Persona.listaPartecipazioni
+2023-07-13 16:59:40,919 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Binding a OneToMany: model.Persona.listaPartecipazioni through a foreign key
+2023-07-13 16:59:40,920 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Mapping collection: model.Persona.listaPartecipazioni -> Partecipazione
+2023-07-13 16:59:40,921 [main] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property model.Partecipazione.persona
+2023-07-13 16:59:40,921 [main] DEBUG o.hibernate.cfg.CollectionSecondPass - Mapped collection key: persona_id, one-to-many: model.Partecipazione
+2023-07-13 16:59:40,921 [main] DEBUG o.hibernate.cfg.CollectionSecondPass - Second pass for collection: model.Evento.setPartecipazioni
+2023-07-13 16:59:40,921 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Binding a OneToMany: model.Evento.setPartecipazioni through a foreign key
+2023-07-13 16:59:40,921 [main] DEBUG o.h.cfg.annotations.CollectionBinder - Mapping collection: model.Evento.setPartecipazioni -> Partecipazione
+2023-07-13 16:59:40,921 [main] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property model.Partecipazione.evento
+2023-07-13 16:59:40,921 [main] DEBUG o.hibernate.cfg.CollectionSecondPass - Mapped collection key: evento_id, one-to-many: model.Partecipazione
+2023-07-13 16:59:40,921 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: model.Location
+2023-07-13 16:59:40,924 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: model.Evento
+2023-07-13 16:59:40,924 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: model.Persona
+2023-07-13 16:59:40,926 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: model.Location
+2023-07-13 16:59:40,926 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: model.Evento
+2023-07-13 16:59:40,926 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: model.Persona
+2023-07-13 16:59:40,964 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+2023-07-13 16:59:40,965 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: null
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+2023-07-13 16:59:40,966 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+2023-07-13 16:59:40,967 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+2023-07-13 16:59:40,967 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+2023-07-13 16:59:40,967 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+2023-07-13 16:59:40,967 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+2023-07-13 16:59:40,967 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+2023-07-13 16:59:40,967 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+2023-07-13 16:59:40,967 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+2023-07-13 16:59:41,017 [main] DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-07-13 16:59:41,019 [main] DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-07-13 16:59:41,037 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2023-07-13 16:59:41,037 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=C:\Users\emau7\workspace-Epicode_FS0223\GestioneEventi\target\classes;C:\Users\emau7\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\emau7\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\emau7\.m2\repository\org\hibernate\hibernate-core\5.6.15.Final\hibernate-core-5.6.15.Final.jar;C:\Users\emau7\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\emau7\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\emau7\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\emau7\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\emau7\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\emau7\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\emau7\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\emau7\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\emau7\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\emau7\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\emau7\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\emau7\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\emau7\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\emau7\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\emau7\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\emau7\.m2\repository\ch\qos\logback\logback-classic\1.4.8\logback-classic-1.4.8.jar;C:\Users\emau7\.m2\repository\ch\qos\logback\logback-core\1.4.8\logback-core-1.4.8.jar;C:\Users\emau7\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Rome, javax.persistence.jdbc.url=jdbc:postgresql://localhost:5432/gestioneeventi, javax.persistence.jdbc.user=****, java.vm.specification.version=17, os.name=Windows 11, jakarta.persistence.jdbc.password=****, sun.java.launcher=SUN_STANDARD, user.country=IT, local.setting.IS_JTA_TXN_COORD=false, sun.boot.library.path=C:\Program Files\Java\jdk-17.0.2\bin, sun.java.command=controller.GestioneEventi, jdk.debug=release, jakarta.persistence.jdbc.driver=org.postgresql.Driver, sun.cpu.endian=little, user.home=C:\Users\emau7, user.language=it, java.specification.vendor=Oracle Corporation, java.version.date=2022-01-18, java.home=C:\Program Files\Java\jdk-17.0.2, file.separator=\, java.vm.compressedOopsMode=Zero based, jakarta.persistence.jdbc.user=****, line.separator=
+, hibernate.persistenceUnitName=GestioneEventi, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, javax.persistence.jdbc.driver=org.postgresql.Driver, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.2+8-LTS-86, user.name=emau7, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5432/gestioneeventi, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=GestioneEventi, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\emau7\AppData\Local\Temp\, java.version=17.0.2, user.dir=C:\Users\emau7\workspace-Epicode_FS0223\GestioneEventi, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, jakarta.persistence.jdbc.url=jdbc:postgresql://localhost:5432/gestioneeventi, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@50194e8d, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\emau7\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\emau7\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\emau7\AppData\Local\Microsoft\WindowsApps;;C:\Users\emau7\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\emau7\AppData\Roaming\npm;C:\Users\emau7\.dotnet\tools;C:\Program Files\heroku\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=17.0.2+8-LTS-86, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, javax.persistence.jdbc.password=****, java.class.version=61.0}
+2023-07-13 16:59:41,051 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+2023-07-13 16:59:41,061 [main] DEBUG org.hibernate.type.EnumType - Using NAMED-based conversion for Enum model.StatoPartecipazione
+2023-07-13 16:59:41,065 [main] DEBUG org.hibernate.type.EnumType - Using NAMED-based conversion for Enum model.Sesso
+2023-07-13 16:59:41,065 [main] DEBUG org.hibernate.type.EnumType - Using NAMED-based conversion for Enum model.TipoEvento
+2023-07-13 16:59:41,065 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+2023-07-13 16:59:41,065 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@438bad7c] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6b667cb3]
+2023-07-13 16:59:41,125 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Location] is safe
+2023-07-13 16:59:41,125 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Location
+2023-07-13 16:59:41,291 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#evento` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,293 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#evento` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,293 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#persona` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,293 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#persona` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,293 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Partecipazione] is safe
+2023-07-13 16:59:41,293 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Partecipazione
+2023-07-13 16:59:41,309 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#evento` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,309 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#persona` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,309 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#evento` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,309 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Partecipazione#persona` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,311 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Persona] is safe
+2023-07-13 16:59:41,311 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Persona
+2023-07-13 16:59:41,332 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Evento#location` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,332 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Evento#location` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,332 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.Evento] is safe
+2023-07-13 16:59:41,333 [main] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Evento
+2023-07-13 16:59:41,344 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Evento#location` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,345 [main] DEBUG o.hibernate.orm.bytecode.interceptor - To-one property `model.Evento#location` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: model.Evento.setPartecipazioni
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: update Partecipazione set evento_id=? where id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update Partecipazione set  where id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: update Partecipazione set evento_id=null where evento_id=? and id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: update Partecipazione set evento_id=null where evento_id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: model.Persona.listaPartecipazioni
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: update Partecipazione set persona_id=? where id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update Partecipazione set  where id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: update Partecipazione set persona_id=null where persona_id=? and id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: update Partecipazione set persona_id=null where persona_id=?
+2023-07-13 16:59:41,355 [main] DEBUG o.h.p.c.AbstractCollectionPersister - Translating order-by fragment [evento.dataEvento] for collection role : model.Persona.listaPartecipazioni
+2023-07-13 16:59:41,375 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: model.Location
+2023-07-13 16:59:41,375 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select id from Location where id =?
+2023-07-13 16:59:41,375 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select location_.id, location_.citta as citta2_1_, location_.nome as nome3_1_ from Location location_ where location_.id=?
+2023-07-13 16:59:41,375 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Location (citta, nome, id) values (?, ?, ?)
+2023-07-13 16:59:41,375 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update Location set citta=?, nome=? where id=?
+2023-07-13 16:59:41,375 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Location where id=?
+2023-07-13 16:59:41,396 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@69d45cca]
+2023-07-13 16:59:41,397 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : citta
+2023-07-13 16:59:41,397 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nome
+2023-07-13 16:59:41,397 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2023-07-13 16:59:41,405 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2023-07-13 16:59:41,408 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.Location)
+    - Returns
+       - EntityReturnImpl(entity=model.Location, querySpaceUid=<gen:0>, path=model.Location)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Location)
+          - SQL table alias mapping - location0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2023-07-13 16:59:41,409 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.Location [NONE]: select location0_.id as id1_1_0_, location0_.citta as citta2_1_0_, location0_.nome as nome3_1_0_ from Location location0_ where location0_.id=?
+2023-07-13 16:59:41,409 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: model.Partecipazione
+2023-07-13 16:59:41,409 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select id from Partecipazione where id =?
+2023-07-13 16:59:41,409 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select partecipaz_.id, partecipaz_.evento_id as evento_i3_2_, partecipaz_.persona_id as persona_4_2_, partecipaz_.stato as stato2_2_ from Partecipazione partecipaz_ where partecipaz_.id=?
+2023-07-13 16:59:41,409 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Partecipazione (evento_id, persona_id, stato, id) values (?, ?, ?, ?)
+2023-07-13 16:59:41,409 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update Partecipazione set evento_id=?, persona_id=?, stato=? where id=?
+2023-07-13 16:59:41,409 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Partecipazione where id=?
+2023-07-13 16:59:41,409 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77c233af]
+2023-07-13 16:59:41,410 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento
+2023-07-13 16:59:41,412 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@34aeacd1]
+2023-07-13 16:59:41,413 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.dataEvento
+2023-07-13 16:59:41,413 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.descrizione
+2023-07-13 16:59:41,413 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.location
+2023-07-13 16:59:41,414 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5854a18]
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.location.citta
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.location.nome
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.numeroMassimoPartecipanti
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.setPartecipazioni
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : evento.setPartecipazioni
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.tipoEvento
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.titolo
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona
+2023-07-13 16:59:41,414 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@791c12e3]
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.cognome
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.dataDiNascita
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.email
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.listaPartecipazioni
+2023-07-13 16:59:41,414 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : persona.listaPartecipazioni
+2023-07-13 16:59:41,415 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.nome
+2023-07-13 16:59:41,415 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.sesso
+2023-07-13 16:59:41,415 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : stato
+2023-07-13 16:59:41,415 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2023-07-13 16:59:41,415 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2023-07-13 16:59:41,416 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.Partecipazione)
+    - Returns
+       - EntityReturnImpl(entity=model.Partecipazione, querySpaceUid=<gen:0>, path=model.Partecipazione)
+          - EntityAttributeFetchImpl(entity=model.Evento, querySpaceUid=<gen:1>, path=model.Partecipazione.evento)
+             - EntityAttributeFetchImpl(entity=model.Location, querySpaceUid=<gen:2>, path=model.Partecipazione.evento.location)
+          - EntityAttributeFetchImpl(entity=model.Persona, querySpaceUid=<gen:3>, path=model.Partecipazione.persona)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Partecipazione)
+          - SQL table alias mapping - partecipaz0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(evento)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Evento)
+                - SQL table alias mapping - evento1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - JOIN (JoinDefinedByMetadata(location)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=model.Location)
+                      - SQL table alias mapping - location2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+          - JOIN (JoinDefinedByMetadata(persona)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=model.Persona)
+                - SQL table alias mapping - persona3_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_3_3_}
+
+2023-07-13 16:59:41,416 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.Partecipazione [NONE]: select partecipaz0_.id as id1_2_0_, partecipaz0_.evento_id as evento_i3_2_0_, partecipaz0_.persona_id as persona_4_2_0_, partecipaz0_.stato as stato2_2_0_, evento1_.id as id1_0_1_, evento1_.dataEvento as dataeven2_0_1_, evento1_.descrizione as descrizi3_0_1_, evento1_.location_id as location7_0_1_, evento1_.numeroMassimoPartecipanti as numeroma4_0_1_, evento1_.tipoEvento as tipoeven5_0_1_, evento1_.titolo as titolo6_0_1_, location2_.id as id1_1_2_, location2_.citta as citta2_1_2_, location2_.nome as nome3_1_2_, persona3_.id as id1_3_3_, persona3_.cognome as cognome2_3_3_, persona3_.dataDiNascita as datadina3_3_3_, persona3_.email as email4_3_3_, persona3_.nome as nome5_3_3_, persona3_.sesso as sesso6_3_3_ from Partecipazione partecipaz0_ left outer join Evento evento1_ on partecipaz0_.evento_id=evento1_.id left outer join Location location2_ on evento1_.location_id=location2_.id left outer join Persona persona3_ on partecipaz0_.persona_id=persona3_.id where partecipaz0_.id=?
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: model.Persona
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select id from Persona where id =?
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select persona_.id, persona_.cognome as cognome2_3_, persona_.dataDiNascita as datadina3_3_, persona_.email as email4_3_, persona_.nome as nome5_3_, persona_.sesso as sesso6_3_ from Persona persona_ where persona_.id=?
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Persona (cognome, dataDiNascita, email, nome, sesso, id) values (?, ?, ?, ?, ?, ?)
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update Persona set cognome=?, dataDiNascita=?, email=?, nome=?, sesso=? where id=?
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Persona where id=?
+2023-07-13 16:59:41,416 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18f55704]
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : cognome
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : dataDiNascita
+2023-07-13 16:59:41,416 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email
+2023-07-13 16:59:41,417 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : listaPartecipazioni
+2023-07-13 16:59:41,417 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1491344a]
+2023-07-13 16:59:41,418 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61ecbee9]
+2023-07-13 16:59:41,418 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nome
+2023-07-13 16:59:41,418 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : sesso
+2023-07-13 16:59:41,418 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2023-07-13 16:59:41,418 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2023-07-13 16:59:41,419 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.Persona)
+    - Returns
+       - EntityReturnImpl(entity=model.Persona, querySpaceUid=<gen:0>, path=model.Persona)
+          - CollectionAttributeFetchImpl(collection=model.Persona.listaPartecipazioni, querySpaceUid=<gen:1>, path=model.Persona.listaPartecipazioni)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=model.Partecipazione, querySpaceUid=<gen:2>, path=model.Persona.listaPartecipazioni.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Persona)
+          - SQL table alias mapping - persona0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2023-07-13 16:59:41,419 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.Persona [NONE]: select persona0_.id as id1_3_0_, persona0_.cognome as cognome2_3_0_, persona0_.dataDiNascita as datadina3_3_0_, persona0_.email as email4_3_0_, persona0_.nome as nome5_3_0_, persona0_.sesso as sesso6_3_0_ from Persona persona0_ where persona0_.id=?
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: model.Evento
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select id from Evento where id =?
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select evento_.id, evento_.dataEvento as dataeven2_0_, evento_.descrizione as descrizi3_0_, evento_.location_id as location7_0_, evento_.numeroMassimoPartecipanti as numeroma4_0_, evento_.tipoEvento as tipoeven5_0_, evento_.titolo as titolo6_0_ from Evento evento_ where evento_.id=?
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Evento (dataEvento, descrizione, location_id, numeroMassimoPartecipanti, tipoEvento, titolo, id) values (?, ?, ?, ?, ?, ?, ?)
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update Evento set dataEvento=?, descrizione=?, location_id=?, numeroMassimoPartecipanti=?, tipoEvento=?, titolo=? where id=?
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Evento where id=?
+2023-07-13 16:59:41,419 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44784e2f]
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : dataEvento
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : descrizione
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : location
+2023-07-13 16:59:41,419 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@737db7f8]
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : location.citta
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : location.nome
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : numeroMassimoPartecipanti
+2023-07-13 16:59:41,419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : setPartecipazioni
+2023-07-13 16:59:41,420 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5922d3e9]
+2023-07-13 16:59:41,420 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7d57dbb5]
+2023-07-13 16:59:41,420 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : tipoEvento
+2023-07-13 16:59:41,420 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : titolo
+2023-07-13 16:59:41,420 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2023-07-13 16:59:41,420 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2023-07-13 16:59:41,421 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=model.Evento)
+    - Returns
+       - EntityReturnImpl(entity=model.Evento, querySpaceUid=<gen:0>, path=model.Evento)
+          - EntityAttributeFetchImpl(entity=model.Location, querySpaceUid=<gen:1>, path=model.Evento.location)
+          - CollectionAttributeFetchImpl(collection=model.Evento.setPartecipazioni, querySpaceUid=<gen:2>, path=model.Evento.setPartecipazioni)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=model.Partecipazione, querySpaceUid=<gen:3>, path=model.Evento.setPartecipazioni.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Evento)
+          - SQL table alias mapping - evento0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(location)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Location)
+                - SQL table alias mapping - location1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+2023-07-13 16:59:41,421 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity model.Evento [NONE]: select evento0_.id as id1_0_0_, evento0_.dataEvento as dataeven2_0_0_, evento0_.descrizione as descrizi3_0_0_, evento0_.location_id as location7_0_0_, evento0_.numeroMassimoPartecipanti as numeroma4_0_0_, evento0_.tipoEvento as tipoeven5_0_0_, evento0_.titolo as titolo6_0_0_, location1_.id as id1_1_1_, location1_.citta as citta2_1_1_, location1_.nome as nome3_1_1_ from Evento evento0_ left outer join Location location1_ on evento0_.location_id=location1_.id where evento0_.id=?
+2023-07-13 16:59:41,423 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@869d87c]
+2023-07-13 16:59:41,424 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2f3166a]
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : evento
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona
+2023-07-13 16:59:41,424 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38c9e0d6]
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.cognome
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.dataDiNascita
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.email
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.listaPartecipazioni
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : persona.listaPartecipazioni
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.nome
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona.sesso
+2023-07-13 16:59:41,424 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : stato
+2023-07-13 16:59:41,424 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2023-07-13 16:59:41,426 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2023-07-13 16:59:41,427 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=model.Evento.setPartecipazioni)
+    - Returns
+       - CollectionReturnImpl(collection=model.Evento.setPartecipazioni, querySpaceUid=<gen:0>, path=[model.Evento.setPartecipazioni])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=model.Partecipazione, querySpaceUid=<gen:1>, path=[model.Evento.setPartecipazioni].<elements>)
+             - EntityAttributeFetchImpl(entity=model.Persona, querySpaceUid=<gen:2>, path=[model.Evento.setPartecipazioni].<elements>.persona)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=model.Evento.setPartecipazioni)
+          - SQL table alias mapping - setparteci0_
+          - alias suffix - 0_
+          - suffixed key columns - {evento_i3_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Partecipazione)
+                - SQL table alias mapping - setparteci0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+                - JOIN (JoinDefinedByMetadata(persona)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=model.Persona)
+                      - SQL table alias mapping - persona1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+
+2023-07-13 16:59:41,427 [main] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection model.Evento.setPartecipazioni: select setparteci0_.evento_id as evento_i3_2_0_, setparteci0_.id as id1_2_0_, setparteci0_.id as id1_2_1_, setparteci0_.evento_id as evento_i3_2_1_, setparteci0_.persona_id as persona_4_2_1_, setparteci0_.stato as stato2_2_1_, persona1_.id as id1_3_2_, persona1_.cognome as cognome2_3_2_, persona1_.dataDiNascita as datadina3_3_2_, persona1_.email as email4_3_2_, persona1_.nome as nome5_3_2_, persona1_.sesso as sesso6_3_2_ from Partecipazione setparteci0_ left outer join Persona persona1_ on setparteci0_.persona_id=persona1_.id where setparteci0_.evento_id=?
+2023-07-13 16:59:41,428 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@554c4eaa]
+2023-07-13 16:59:41,428 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29fd8e67]
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento
+2023-07-13 16:59:41,428 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7cdbaa50]
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.dataEvento
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.descrizione
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.location
+2023-07-13 16:59:41,428 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1455154c]
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.location.citta
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.location.nome
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.numeroMassimoPartecipanti
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.setPartecipazioni
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : evento.setPartecipazioni
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.tipoEvento
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : evento.titolo
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : persona
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : persona
+2023-07-13 16:59:41,428 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : stato
+2023-07-13 16:59:41,428 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2023-07-13 16:59:41,429 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2023-07-13 16:59:41,429 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=model.Persona.listaPartecipazioni)
+    - Returns
+       - CollectionReturnImpl(collection=model.Persona.listaPartecipazioni, querySpaceUid=<gen:0>, path=[model.Persona.listaPartecipazioni])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=model.Partecipazione, querySpaceUid=<gen:1>, path=[model.Persona.listaPartecipazioni].<elements>)
+             - EntityAttributeFetchImpl(entity=model.Evento, querySpaceUid=<gen:2>, path=[model.Persona.listaPartecipazioni].<elements>.evento)
+                - EntityAttributeFetchImpl(entity=model.Location, querySpaceUid=<gen:3>, path=[model.Persona.listaPartecipazioni].<elements>.evento.location)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=model.Persona.listaPartecipazioni)
+          - SQL table alias mapping - listaparte0_
+          - alias suffix - 0_
+          - suffixed key columns - {persona_4_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Partecipazione)
+                - SQL table alias mapping - listaparte0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+                - JOIN (JoinDefinedByMetadata(evento)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=model.Evento)
+                      - SQL table alias mapping - evento1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+                      - JOIN (JoinDefinedByMetadata(location)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=model.Location)
+                            - SQL table alias mapping - location2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_1_3_}
+
+2023-07-13 16:59:41,429 [main] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection model.Persona.listaPartecipazioni: select listaparte0_.persona_id as persona_4_2_0_, listaparte0_.id as id1_2_0_, listaparte0_.id as id1_2_1_, listaparte0_.evento_id as evento_i3_2_1_, listaparte0_.persona_id as persona_4_2_1_, listaparte0_.stato as stato2_2_1_, evento1_.id as id1_0_2_, evento1_.dataEvento as dataeven2_0_2_, evento1_.descrizione as descrizi3_0_2_, evento1_.location_id as location7_0_2_, evento1_.numeroMassimoPartecipanti as numeroma4_0_2_, evento1_.tipoEvento as tipoeven5_0_2_, evento1_.titolo as titolo6_0_2_, location2_.id as id1_1_3_, location2_.citta as citta2_1_3_, location2_.nome as nome3_1_3_ from Partecipazione listaparte0_ left outer join Evento evento1_ on listaparte0_.evento_id=evento1_.id left outer join Location location2_ on evento1_.location_id=location2_.id where listaparte0_.persona_id=? order by listaparte0_.evento.dataEvento
+2023-07-13 16:59:41,468 [main] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7978e022] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-07-13 16:59:41,499 [main] DEBUG org.hibernate.SQL - create table Evento (id int8 not null, dataEvento timestamp, descrizione varchar(255), numeroMassimoPartecipanti int4, tipoEvento varchar(255), titolo varchar(255), location_id int8, primary key (id))
+2023-07-13 16:59:41,517 [main] DEBUG org.hibernate.SQL - create table Location (id int8 not null, citta varchar(255), nome varchar(255), primary key (id))
+2023-07-13 16:59:41,525 [main] DEBUG org.hibernate.SQL - create table Partecipazione (id int8 not null, stato varchar(255), evento_id int8, persona_id int8, primary key (id))
+2023-07-13 16:59:41,530 [main] DEBUG org.hibernate.SQL - create table Persona (id int8 not null, cognome varchar(255), dataDiNascita date, email varchar(255), nome varchar(255), sesso varchar(255), primary key (id))
+2023-07-13 16:59:41,539 [main] DEBUG org.hibernate.SQL - create sequence evento_seq start 1 increment 1
+2023-07-13 16:59:41,541 [main] DEBUG org.hibernate.SQL - create sequence location_seq start 1 increment 1
+2023-07-13 16:59:41,542 [main] DEBUG org.hibernate.SQL - create sequence partecipazione_seq start 1 increment 1
+2023-07-13 16:59:41,544 [main] DEBUG org.hibernate.SQL - create sequence persona_seq start 1 increment 1
+2023-07-13 16:59:41,545 [main] DEBUG org.hibernate.SQL - alter table Evento add constraint FK67edsk1syq09cj4qc0v3ts6b2 foreign key (location_id) references Location
+2023-07-13 16:59:41,553 [main] DEBUG org.hibernate.SQL - alter table Partecipazione add constraint FKdprjucwkt3arhksyo2lsjn4tc foreign key (evento_id) references Evento
+2023-07-13 16:59:41,554 [main] DEBUG org.hibernate.SQL - alter table Partecipazione add constraint FK9t2p18aixml7mr32e7byhnqb6 foreign key (persona_id) references Persona
+2023-07-13 16:59:41,556 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+2023-07-13 16:59:41,556 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2023-07-13 16:59:41,559 [main] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-13 16:59:41,559 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-13 16:59:41,563 [main] DEBUG o.h.s.i.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-07-13 16:59:41,564 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@235d659c
+2023-07-13 16:59:41,568 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+2023-07-13 16:59:41,568 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+2023-07-13 16:59:41,569 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@4aa11206
+2023-07-13 16:59:41,570 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: da21568d-2063-4201-b295-88cee87ce89c (<unnamed>)
+2023-07-13 16:59:41,570 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+2023-07-13 16:59:41,603 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+2023-07-13 16:59:41,607 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-07-13 16:59:41,607 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2023-07-13 16:59:41,610 [main] DEBUG org.hibernate.SQL - select nextval ('location_seq')
+2023-07-13 16:59:41,614 [main] DEBUG o.h.id.enhanced.SequenceStructure - Sequence value obtained: 1
+2023-07-13 16:59:41,614 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+2023-07-13 16:59:41,614 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 1, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2023-07-13 16:59:41,623 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2023-07-13 16:59:41,624 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2023-07-13 16:59:41,627 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2023-07-13 16:59:41,632 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2023-07-13 16:59:41,632 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-07-13 16:59:41,633 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2023-07-13 16:59:41,633 [main] DEBUG o.h.internal.util.EntityPrinter - model.Location{nome=Stadio Franchi, id=1, citta=Firenze}
+2023-07-13 16:59:41,636 [main] DEBUG org.hibernate.SQL - insert into Location (citta, nome, id) values (?, ?, ?)
+2023-07-13 16:59:41,640 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,640 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,641 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2023-07-13 16:59:41,642 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-07-13 16:59:41,642 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2023-07-13 16:59:41,642 [main] DEBUG org.hibernate.SQL - select nextval ('evento_seq')
+2023-07-13 16:59:41,642 [main] DEBUG o.h.id.enhanced.SequenceStructure - Sequence value obtained: 1
+2023-07-13 16:59:41,642 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+2023-07-13 16:59:41,642 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 1, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2023-07-13 16:59:41,644 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2023-07-13 16:59:41,644 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2023-07-13 16:59:41,644 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2023-07-13 16:59:41,644 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2023-07-13 16:59:41,644 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-07-13 16:59:41,644 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2023-07-13 16:59:41,649 [main] DEBUG o.h.internal.util.EntityPrinter - model.Evento{dataEvento=Thu Jul 13 16:59:41 CEST 2023, descrizione=Finale di coppa, titolo=Partita, numeroMassimoPartecipanti=10, tipoEvento=PUBBLICO, setPartecipazioni=null, location=model.Location#1, id=1}
+2023-07-13 16:59:41,649 [main] DEBUG org.hibernate.SQL - insert into Evento (dataEvento, descrizione, location_id, numeroMassimoPartecipanti, tipoEvento, titolo, id) values (?, ?, ?, ?, ?, ?, ?)
+2023-07-13 16:59:41,653 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,653 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,653 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2023-07-13 16:59:41,654 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-07-13 16:59:41,654 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2023-07-13 16:59:41,654 [main] DEBUG org.hibernate.SQL - select nextval ('persona_seq')
+2023-07-13 16:59:41,654 [main] DEBUG o.h.id.enhanced.SequenceStructure - Sequence value obtained: 1
+2023-07-13 16:59:41,655 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+2023-07-13 16:59:41,655 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 1, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2023-07-13 16:59:41,655 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2023-07-13 16:59:41,655 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2023-07-13 16:59:41,655 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2023-07-13 16:59:41,655 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2023-07-13 16:59:41,655 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-07-13 16:59:41,655 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2023-07-13 16:59:41,655 [main] DEBUG o.h.internal.util.EntityPrinter - model.Persona{listaPartecipazioni=null, cognome=Rossi, sesso=MASCHIO, nome=Mario, id=1, email=m.rossi@google.com, dataDiNascita=1980-09-23}
+2023-07-13 16:59:41,655 [main] DEBUG org.hibernate.SQL - insert into Persona (cognome, dataDiNascita, email, nome, sesso, id) values (?, ?, ?, ?, ?, ?)
+2023-07-13 16:59:41,657 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,657 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,657 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2023-07-13 16:59:41,658 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-07-13 16:59:41,658 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2023-07-13 16:59:41,658 [main] DEBUG org.hibernate.SQL - select nextval ('partecipazione_seq')
+2023-07-13 16:59:41,659 [main] DEBUG o.h.id.enhanced.SequenceStructure - Sequence value obtained: 1
+2023-07-13 16:59:41,659 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+2023-07-13 16:59:41,659 [main] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: 1, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+2023-07-13 16:59:41,659 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2023-07-13 16:59:41,659 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2023-07-13 16:59:41,659 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2023-07-13 16:59:41,659 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2023-07-13 16:59:41,659 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-07-13 16:59:41,659 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2023-07-13 16:59:41,659 [main] DEBUG o.h.internal.util.EntityPrinter - model.Partecipazione{stato=CONFERMATA, evento=model.Evento#1, persona=model.Persona#1, id=1}
+2023-07-13 16:59:41,659 [main] DEBUG org.hibernate.SQL - insert into Partecipazione (evento_id, persona_id, stato, id) values (?, ?, ?, ?)
+2023-07-13 16:59:41,661 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,661 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2023-07-13 16:59:41,661 [main] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch

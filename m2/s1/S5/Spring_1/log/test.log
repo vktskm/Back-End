@@ -1,0 +1,7 @@
+2023-07-25 11:36:58,637 [restartedMain] INFO  c.e.Spring_1.Spring1Application - Starting Spring1Application using Java 17.0.2 with PID 11204 (C:\Users\emau7\workspace-Epicode_FS0223\Spring_1\target\classes started by emau7 in C:\Users\emau7\workspace-Epicode_FS0223\Spring_1)
+ 2023-07-25 11:36:58,638 [restartedMain] INFO  c.e.Spring_1.Spring1Application - No active profile set, falling back to 1 default profile: "default"
+ 2023-07-25 11:36:58,674 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 2023-07-25 11:36:59,122 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 2023-07-25 11:36:59,165 [restartedMain] INFO  c.e.Spring_1.Spring1Application - Started Spring1Application in 0.881 seconds (process running for 1.479)
+ 2023-07-25 11:36:59,167 [restartedMain] INFO  c.example.Spring_1.runner.UserRunner - User run...
+ 
